@@ -7,7 +7,8 @@
     --orange: #FFA442;
     --blue: #4B64FF;
     --red: #FF4B4B;
-    --green: #39b349;
+    --green: #40c952;
+    --green-price: #39b349;
 }
 
 body{
@@ -55,7 +56,7 @@ body{
 }
 
 .column:nth-child(4) .price{
-    color: var(--green);
+    color: var(--green-price);
 }
 .column .price span{
     color: var(--light-head-text-color);
