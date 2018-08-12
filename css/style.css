@@ -97,7 +97,7 @@ body{
 
 .option ul li{
     list-style: none;
-    padding: 0 0 10px;
+    padding: 0 0 15px;
     font-size: 0.9em;
     color: var(--dark-option-text-color);
     font-weight: 600;
@@ -116,7 +116,7 @@ body{
 }
 
 .btn{
-    padding: 50px 0 60px;
+    padding: 40px 0 60px;
 }
 .btn a{
     text-decoration: none;    
