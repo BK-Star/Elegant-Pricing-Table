@@ -15,11 +15,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background: #fff;
+    overflow: hidden;
 }
 
 .container{
     width: 1175px;
-    margin: 100px 100px;    
+    margin: 0 auto;    
     display: flex;
     justify-content: center;        
 }
@@ -27,14 +29,16 @@ body{
 .column{
     flex: 0 0 20%;
     background: #fff;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
     border-radius: 20px;
     margin: 20px;
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
 }
-
+.column:hover{
+    transform: scale(1.05);
+}
 .column .price{
     background: var(--head-light-grey);
     border-bottom-left-radius: 50%;
@@ -53,6 +57,11 @@ body{
 .column:nth-child(3) .price{
     background-color: var(--red); 
     color: #fff;   
+}
+
+.column:nth-child(3) .price span{
+    opacity: .6;
+    color: #fff;
 }
 
 .column:nth-child(4) .price{
@@ -117,7 +126,7 @@ body{
 }
 
 .btn{
-    padding: 40px 0 60px;
+    padding: 25px 0 40px;
 }
 .btn a{
     text-decoration: none;    
