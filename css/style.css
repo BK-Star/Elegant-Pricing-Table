@@ -38,7 +38,7 @@ body{
     background: var(--head-light-grey);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    padding: 50px;
+    padding: 30px 0 40px;
 }
 
 .column:nth-child(1) .price{
@@ -116,7 +116,7 @@ body{
 }
 
 .btn{
-    padding: 50px 0 70px;
+    padding: 50px 0 60px;
 }
 .btn a{
     text-decoration: none;    
@@ -167,4 +167,9 @@ body{
     text-transform: uppercase;
     color: var(--green);
     font-weight: 600;
+}
+
+.column .fa{
+    font-size: 40px;
+    padding: 0 0 20px;
 }
