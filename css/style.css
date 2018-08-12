@@ -147,3 +147,24 @@ body{
     background: var(--green);
     box-shadow: 0 7px  20px rgba(64, 201, 82, .6);
 }
+
+.column:nth-child(2) ul li:last-child:after{
+    content: 'yes';
+    text-transform: uppercase;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.column:nth-child(3) ul li:nth-child(n+4):nth-child(-n+5):after{
+    content: 'yes';
+    text-transform: uppercase;
+    color: var(--red);
+    font-weight: 600;
+}
+
+.column:nth-child(4) ul li:nth-child(n+4):after{
+    content: 'yes';
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 600;
+}
