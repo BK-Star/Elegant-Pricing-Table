@@ -35,6 +35,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
+    transition: transform .4s;
 }
 .column:hover{
     transform: scale(1.05);
